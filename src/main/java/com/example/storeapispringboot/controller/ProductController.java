@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping(path = "api/v1/products")
 @Slf4j
+@CrossOrigin(origins = "*")
 public class ProductController {
     private final ProductService productService;
 
