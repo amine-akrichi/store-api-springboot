@@ -49,8 +49,8 @@ public class ProductService {
         if (product.getQuantity() != 0) {
             productToUpdate.setQuantity(product.getQuantity());
         }
-//        if (product.getCategory() != null) {
-//            productToUpdate.setCategory(product.getCategory());
-//        }
+        if (product.getCategory() != null) {
+            productToUpdate.setCategory(product.getCategory());
+        }
     }
 }
